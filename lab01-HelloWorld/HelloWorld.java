@@ -10,10 +10,10 @@
 // here we define a class
 public class HelloWorld{
     
-//next, we add a method
-public static void main(String[] args) {
+    //next, we add the main method
+    public static void main(String[] args) {
     
-// we now print the statement with the box around it
+    // we now print the statement with the box around it
     System.out.println("########################");
     System.out.println("########################");
     System.out.println("#                      #");
@@ -21,8 +21,9 @@ public static void main(String[] args) {
     System.out.println("#                      #");
     System.out.println("########################");
     System.out.println("########################");
-    System.out.println("test");
+    System.out.println("testing");
     
     //test/testtest
-}
+  }
+    
 }
