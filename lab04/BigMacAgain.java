@@ -61,7 +61,7 @@ public class BigMacAgain{
             System.out.printf("The total cost of your meal is = $ %.2f",totalCost);
         }
         else {
-            System.out.println("You did not enter a valide answer, please answer with Y,y or N,n");
+            System.out.println("You did not enter a valid answer, please answer with Y,y or N,n");
         }
         
     }
