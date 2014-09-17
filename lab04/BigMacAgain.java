@@ -54,7 +54,7 @@ public class BigMacAgain{
         
         //Here we tell the program what output we would like depending on the users decison, using if, else if and else satements.
         if (choice.equals("Y")){
-            System.out.println("You ordered fried that costs $ 2.15");
+            System.out.println("You ordered fries that costs $ 2.15");
             System.out.printf("The total cost of your meal is = $ %.2f",(totalCost+priceForFries));
         }
         else if (choice.equals("N")){
