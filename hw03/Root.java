@@ -36,6 +36,5 @@ public class Root{
         System.out.println("The cube root is: "+guess6);
         System.out.println(guess6+"*"+guess6+"*"+guess6);
         System.out.println("By cubing the number above we achieve a result of "+ Math.pow(guess6,3));
-        
     }
 }

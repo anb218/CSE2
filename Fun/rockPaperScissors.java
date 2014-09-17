@@ -30,7 +30,7 @@ public class rockPaperScissors{
       System.out.println("You have won this round! But beware of the next!");
     }
     else if (choice.equals("Rock") && compChoice.equals("Paper")){
-      System.out.println("HA! This round is mine my young Padawan");
+      System.out.println("Suck my DICK");
     }
     else if (choice.equals("Paper") && compChoice.equals("Paper")){
       System.out.println("This match has resulted into a draw");
@@ -45,7 +45,7 @@ public class rockPaperScissors{
       System.out.println("This match has resulted into a draw");
     }
     else if (choice.equals("Scissors") && compChoice.equals("Rock")){
-      System.out.println("HA! This round is mine my young Padawan");
+      System.out.println("YOU LITTLE MOTHERFUCKER, IM THE KING");
     }
     else if (choice.equals("Scissors") && compChoice.equals("Paper")){
       System.out.println("You have won this round! But beware of the next!");

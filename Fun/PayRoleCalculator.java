@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class PayRoleCalculator{
   public static void main (String[] args){
     Scanner myScanner = new Scanner(System.in);
-    System.out.println("Enter employee's name: ");
+    System.out.println("Enter employee's name: ")
     String nameEmployee=myScanner.next();
     System.out.println("Enter number of hours worked in a week: ");
     double hoursWorked=myScanner.nextDouble();
