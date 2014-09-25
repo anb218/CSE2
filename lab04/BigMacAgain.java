@@ -46,13 +46,11 @@ public class BigMacAgain{
         
         //Here we ask them if they want fries
         System.out.println("\n Would you like fries with your BigMac? (Y (or y) / N (or n))" );
-        String choice = myScanner.next(); //We use String because the value is alphabetical.
+        String choice = myScanner.next().toUpperCase(); //We use String because the value is alphabetical.
        
-        //The next step allows the user to enter upper or lower case.
-        choice = choice.toLowerCase(); 
-        choice = choice.substring(0,1).toUpperCase() + choice.substring(1);
         
-        //Here we tell the program what output we would like depending on the users decison, using if, else if and else satements.
+        
+        //Here we tell the program what output we would like depending on the users decison, using if, else if and else statements.
         if (choice.equals("Y")){
             System.out.println("You ordered fries that costs $ 2.15");
             System.out.printf("The total cost of your meal is = $ %.2f",(totalCost+priceForFries));
